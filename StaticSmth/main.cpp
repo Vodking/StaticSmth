@@ -41,6 +41,18 @@ struct MyStruct2
 	
 };
 
+/*
+Static функции это функции которые могут использоваться только в этом файле. в других их использовать нельзя.
+*/
+
+struct StaticFunc
+{
+	static int MyFunc() 
+	{
+		std::cout << "Hello World";
+	}
+};
+
 int main()
 {
 	SetConsoleCP(1251);
